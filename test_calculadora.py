@@ -20,7 +20,7 @@ def test_score_baixo():
 def test_score_medio():
     """Pessoa com perfil médio = score médio"""
     score = calcular_score(renda=4000, idade=28, dividas=4000)
-    assert 40 < score <= 70, f"Score deveria estar entre 40-70, mas foi {score}"
+    assert 40 < score < 70, f"Score deveria estar entre 40-70, mas foi {score}"
 
 
 def test_score_dentro_limites():
