@@ -1,5 +1,5 @@
 """
-Testes - Verificam se calculadora funciona corretamente
+Testes - Verificam se calculadora funciona corretamente assim
 """
 import pytest
 from calculadora import calcular_score
